@@ -20,8 +20,8 @@
                 <li><a href="CV_morel_romain.pdf">CV</a></li>
             </ul>
         </nav>
-        
     </header>
+
     <div id="bloc_page">
         <div id="banner">
             <h1>Romain Morel</h1>
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-            <h2>Mon parcours</h2>
+            <h2>Mon parcour</h2>
             <div class="category">
                 <div class="item">
                     <h3>Futuroscope</h3>
@@ -127,9 +127,31 @@
             
         </section>
 
-        
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class ="id_img"><img id="id_image_url" src="img/loading.jpg" alt="img"></div>
+            <div class ="id_info">
+                <h1 id="id_title"></h1>
+                <div id="id_genres"></div>
+                <div id="id_date_published"></div>
+                <div id="id_rated"></div>
+                <div id="id_imdb_score"></div> 
+                <div id="id_directors"></div>
+                <div id="id_duration"></div>
+                <div id="id_countries"></div>
+                <div id="id_worldwide_gross_income"></div>
+            </div>
+            <div class ="id_other">
+                <div id="id_description"></div>
+                <div id="id_actors"></div>
+            </div>
+          </div>
+        </div>
 
     </div>
-
+    <script src="js/carousel.js"></script>
+    <script src="js/fetch.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
