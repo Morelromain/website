@@ -20,8 +20,8 @@ header {
 
   position: fixed;
   top: 0%;
-  left: 5%;
-  right: 5%;
+  left: 0%;
+  right: 0%;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(70, 93, 172);
@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   height: 60px;
-  width: 90%;
+  width: 100%;
   color: rgb(234, 229, 247);
 }
 
@@ -120,7 +120,6 @@ h2 {
   font-size: 1.8em;
   color: rgb(70, 93, 172);
   font-family: 'Gelasio', sans-serif;
-  animation: show 20s;
 }
 
 h3 {
@@ -130,12 +129,6 @@ h3 {
   font-family: 'Gelasio', sans-serif;
   
 }
-
-@keyframes show {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 
 p {
   font-family: Arial, Helvetica, sans-serif;
