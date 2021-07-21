@@ -118,7 +118,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 2em;
-  color: rgb(70, 93, 172);
+  color: red;
   font-family: 'Gelasio', sans-serif;
   animation: show 20s;
 }
