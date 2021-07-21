@@ -102,13 +102,25 @@ h1 {
   text-align: center;
   font-size: 4em;
   color: rgb(112, 129, 184);
+  animation: color-change 4s infinite;
 }
+
+
+
+@keyframes color-change {
+  0% { color: rgb(112, 129, 184); }
+  50% { color: rgb(234, 229, 247); }
+  100% { color: rgb(112, 129, 184); }
+}
+
+
 
 h2 {
   text-align: center;
   font-size: 2em;
   color: rgb(70, 93, 172);
   font-family: 'Gelasio', sans-serif;
+  animation: show 20s;
 }
 
 h3 {
@@ -116,7 +128,14 @@ h3 {
   font-size: 2em;
   color: rgb(234, 229, 247);
   font-family: 'Gelasio', sans-serif;
+  
 }
+
+@keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 p {
   font-family: Arial, Helvetica, sans-serif;
@@ -287,4 +306,5 @@ p {
   background-color: yellow;
   display: none;
 }
-    
+
+
