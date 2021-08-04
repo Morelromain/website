@@ -69,6 +69,18 @@ footer{
   border-top-color: rgb(70, 93, 172);
 }
 
+.link {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.link:hover {
+  filter: sepia(1);
+  -webkit-filter: sepia(1);
+}
+
 /* Banner */
 
 #banner {
