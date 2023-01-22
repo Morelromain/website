@@ -132,7 +132,7 @@ h1 {
 
 @keyframes color-change {
   0% { color: rgb(112, 129, 184); }
-  50% { color: rgb(138, 117, 192); }
+  50% { color: rgb(70, 93, 172); }
   100% { color: rgb(112, 129, 184); }
 }
 
