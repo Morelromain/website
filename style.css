@@ -91,7 +91,7 @@ footer{
   padding-top: 10px;
   padding-bottom: 20px;
   text-align: center;
-  color: rgb(70, 93, 172);
+  color: #000810;
 }
 
 #profile_pic {
@@ -108,7 +108,7 @@ footer{
   height: 230px;
   margin-left: auto;
   margin-right: auto;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
   border-radius: 50%;
 }
