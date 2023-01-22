@@ -159,7 +159,7 @@ h3 {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial, Helvetica, sans-serif';
   font-size: 1.1em;
   color: rgb(234, 229, 247);
 }
@@ -181,7 +181,6 @@ p {
 
 .item, .item2 {
   border-radius: 31px;
-
   box-shadow:  6px 6px 0px #111315,
               -6px -6px 0px #191d21;
   transition: background-color 3s ease;
@@ -192,7 +191,6 @@ p {
   width: 100%;
   height: 90%;
   text-align: center;
-  
   margin: 0px 10px 0px 10px ;
 }
 
@@ -200,10 +198,15 @@ p {
   height: 80%;
 }
 
-.item2:hover , .item:hover{
-  transition: background-color 3s ease;
+.item2:hover {
+  transition: background-color 1s ease;
   background: #000810;
-  }
+}
+
+.item:hover {
+  transition: background-color 1s ease;
+  background: #000810;
+}
 
 #banner_img {
   display: flex;
@@ -265,6 +268,15 @@ p {
   margin-left: 15px;
 }
 
+.lien_a {
+  position:absolute;z-index:1;
+}
+
+.lien_b {
+  width: 325px;
+  height: 475px;
+}
+
 /* Portfolio div */
 
 .description{
@@ -307,3 +319,4 @@ span{
 .deploy{
   background-color:rgb(82, 0, 0)
 }
+
