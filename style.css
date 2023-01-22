@@ -152,6 +152,7 @@ h2 {
 }
 
 h3 {
+  text-shadow:0 0 1px #00fffb7e,0 0 2px #00fffb7e,0px 0px 1px #00fffb81, 0 0 6px #00fffb7c;color:#00fffb80;
   text-align: center;
   font-size: 1.5em;
   color: rgb(234, 229, 247);
