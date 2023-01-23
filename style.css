@@ -92,6 +92,7 @@ footer{
   padding-bottom: 20px;
   text-align: center;
   color: #000810;
+  
 }
 
 #profile_pic {
@@ -260,12 +261,29 @@ p {
 }
 
 .lien_a {
-  position:absolute;z-index:1;
+  position:absolute;
 }
 
 .lien_b {
   width: 325px;
   height: 475px;
+}
+
+@media(min-width: 1024px)
+{
+.sous_banner_1 {
+  display:none;
+}
+}
+
+@media(max-width: 1023px)
+{
+.lien_a {
+  pointer-events: none;
+}
+.sous_banner_2 {
+  display:none;
+}
 }
 
 /* Portfolio div */
