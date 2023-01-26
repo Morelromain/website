@@ -35,17 +35,12 @@
             <h1>Contact</h1>
             <div class="item3">
                 <h3>morelromain86@gmail.com</h3>
-                <form action="mailto:morelromain86@gmail.com" method="get" enctype="text/plain">
-                    <div id=form_1>
-                        <p>Nom &nbsp; &emsp;<input class="info" type="text" name="name" required/></p>
-                        <p>Email &emsp;<input class="info" type="email" name="email" required/></p>
-                    </div>
-                    <div id=form_2>
-                        <textarea name="comments" rows="10" cols="37" required>Écrivez votre mail </textarea>
-                    </div>
-                    <br><br>
-                    <input id=envoi type="submit" name="submit" value="Envoyer un mail" />
-                </form>
+<form enctype="text/plain" method="get" action="mailto:destinataire@toto.com">
+Votre nom: <input type="text" name="nom"><br>
+ 
+Commentaire <textarea rows="8" cols="30" name="commentaire"></textarea>
+<input type="submit" value="Valider">
+</form>
             </div>
         </div>
     </div>  
