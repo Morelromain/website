@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 900 600"
+   width="900"
+   height="600"
+   version="1.1"
+   sodipodi:docname="fond2.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath964">
+      <path
+         d="M 0.89605968,70.389735 22.39606,68.205355 c 21.5,-2.085611 64.499996,-6.455021 107.29999,-5.759891 42.9,0.69512 85.5,6.256241 128.4,7.745821 42.8,1.48969 85.8,-1.09235 128.6,-7.050701 42.9,-5.95857 85.5,-15.29303 128.4,-14.10151 42.8,1.1918 85.8,12.71126 128.6,16.58426 42.9,3.773491 85.5,-0.19869 128.4,-3.97236 42.8,-3.87279 85.8,-7.44787 107.3,-9.33465 l 21.5,-1.78752 v -82.423538 h -21.5 c -21.5,0 -64.5,0 -107.3,0 -42.9,0 -85.5,0 -128.4,0 -42.8,0 -85.8,0 -128.6,0 -42.9,0 -85.5,0 -128.4,0 -42.8,0 -85.8,0 -128.6,0 -42.9,0 -85.5,0 -128.4,0 -42.799994,0 -85.79999,0 -107.29999,0 H 0.89605968 Z"
+         fill="#000810"
+         stroke-linecap="round"
+         stroke-linejoin="miter"
+         id="path966"
+         style="stroke-width:0.996522" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="11.16"
+     inkscape:cx="899.46237"
+     inkscape:cy="36.648746"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="visual" />
+  <rect
+     x="0.089605428"
+     y="0.71681786"
+     width="900"
+     height="600"
+     fill="#15181b"
+     id="rect2" />
+  <rect
+     x="0.89605761"
+     y="-0.35842451"
+     width="900"
+     height="600"
+     fill="#15181b"
+     id="rect2-1"
+     clip-path="url(#clipPath964)"
+     transform="matrix(1.0007965,0,0,0.7676607,-1.4344092,0.27514658)"
+     style="fill:#000810;fill-opacity:1" />
+</svg>
