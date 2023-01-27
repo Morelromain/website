@@ -2,7 +2,7 @@
 
 body {
   background: rgb(21, 24, 27);
-  background-image: url("img/fond.svg");
+  background-image: url("img/fond2.svg");
   background-size: 100% auto ;
   background-repeat: no-repeat;
   font-family: 'Gelasio', sans-serif;
@@ -352,76 +352,4 @@ span{
   color: #fff;
   background-color: #000810;
   cursor: pointer;
-}
-
-
-/* Email */
-form {
-  width: 300px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#form_1 {
-  text-align: right;
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#form_2 {
-  text-align: center;
-}
-
-#envoi {
-  font-size: 1.1em;
-  color: #f09047;
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  text-align: center;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 15px;
-  background-color: #000810;
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-}
-
-#envoi:hover {
-  transition: all 1s ease;
-  color: #fff;
-  background-color: rgb(21, 24, 27);
-  cursor: pointer;
-}
-
-.info {
-  width: 200px;
-  background-color: rgb(230, 230, 201)
-}
-
-textarea{
-  background-color: rgb(230, 230, 201)
-}
-
-.item3 {
-  padding-top: 10px;
-  border-radius: 31px;
-  box-shadow:  6px 6px 0px #111315,
-              -6px -6px 0px #191d21;
-  transition: background-color 3s ease;
-  border-color: rgba(64, 94, 194, 0.2);
-  border-radius: 25px;
-  width: 380px;
-  height: 450px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.item3:hover {
-  transition: background-color 1s ease;
-  background: #000810;
 }
